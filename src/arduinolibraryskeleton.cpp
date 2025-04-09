@@ -9,20 +9,21 @@ ArduinoLibrarySkeleton::ArduinoLibrarySkeleton(void)
 
 
 
-ArduinoLibrarySkeleton::ERc ArduinoLibrarySkeleton::begin(void)
+ArduinoLibrarySkeleton::ERc ArduinoLibrarySkeleton::begin(void) const
 {
-  return RcOK;
+  return ERc::RcOK;
 }
 
 
 
-void ArduinoLibrarySkeleton::end(void)
+void ArduinoLibrarySkeleton::end(void) const
 {
+  // nothing to do in this simple example library
 }
 
 
 
-uint32_t ArduinoLibrarySkeleton::getValue(void)
+uint32_t ArduinoLibrarySkeleton::getValue(void) const
 {
   return mu32_Value;
 }

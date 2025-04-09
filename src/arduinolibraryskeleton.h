@@ -8,11 +8,11 @@
 class ArduinoLibrarySkeleton
 {
 public:
-  typedef enum
+  enum class ERc : int8_t
   {
     RcOK = 0,
     RcError = -1
-  } ERc;
+  };
 
 private:
   uint32_t mu32_Value;
@@ -20,10 +20,10 @@ private:
 public:
   ArduinoLibrarySkeleton(void);
 
-  ERc begin(void);
-  void end(void);
+  ERc begin(void) const;
+  void end(void) const;
 
-  uint32_t getValue(void);
+  uint32_t getValue(void) const;
   void setValue(const uint32_t u32_Value);
 };
 
