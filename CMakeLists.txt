@@ -2,18 +2,30 @@ cmake_minimum_required(VERSION 3.14)
 
 project(ArduinoLibrarySkeleton LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-# ask for all warnings and strict compliance with the standard
-set(CMAKE_CXX_FLAGS "-Wall -Werror -pedantic")
-
 add_library(ArduinoLibrarySkeleton STATIC
-  src/arduinolibraryskeleton.h
   src/arduinolibraryskeleton.cpp
 )
 
-target_compile_definitions(ArduinoLibrarySkeleton PRIVATE ARDUINOLIBRARYSKELETON_LIBRARY)
+# Set C++ standard for this target
+target_compile_features(ArduinoLibrarySkeleton PUBLIC cxx_std_17)
+
+# Add compiler options
+target_compile_options(ArduinoLibrarySkeleton PRIVATE -Wall -Werror -pedantic)
+
+# Include directories
 target_include_directories(ArduinoLibrarySkeleton PUBLIC src)
 
-# target_link_libraries(ArduinoLibrarySkeleton PUBLIC <TBD>)  # use this if the library depends from other libraries
+# Installation rules (optional)
+install(TARGETS ArduinoLibrarySkeleton
+  EXPORT ArduinoLibrarySkeletonTargets
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin
+)
+install(DIRECTORY src/
+  DESTINATION include
+  FILES_MATCHING PATTERN "*.h"
+)
+
+# Export rules (optional)
+export(TARGETS ArduinoLibrarySkeleton FILE ArduinoLibrarySkeletonConfig.cmake)
