@@ -7,13 +7,15 @@ ArduinoLibrarySkeleton myArduinoLibrary;
 
 void setup() 
 {
+  Serial.begin(115200);
+
   myArduinoLibrary.begin();
+  myArduinoLibrary.setValue(4711);
 }
+
 
 void loop() 
 {
-  myArduinoLibrary.setValue(4711);
-
   uint32_t value = myArduinoLibrary.getValue();
   Serial.println(value);
 
