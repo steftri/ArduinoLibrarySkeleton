@@ -43,6 +43,7 @@ For library development using Visual Studio Code, the following tools and framew
 
 ### 1.1.0
 
+* Filenames changed to CamelCase
 * CMakeLists.txt added
 * Doxygen comments added
 * Arduino example added

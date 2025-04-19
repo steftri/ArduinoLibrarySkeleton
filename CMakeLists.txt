@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.14)
 project(ArduinoLibrarySkeleton LANGUAGES CXX)
 
 add_library(ArduinoLibrarySkeleton STATIC
-  src/arduinolibraryskeleton.cpp
+  src/ArduinoLibrarySkeleton.cpp
 )
 
 # Set C++ standard for this target
