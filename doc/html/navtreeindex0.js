@@ -1,7 +1,7 @@
 var NAVTREEINDEX0 =
 {
+"_arduino_library_skeleton_8h_source.html":[1,0,0,0],
 "annotated.html":[0,0],
-"arduinolibraryskeleton_8h_source.html":[1,0,0,0],
 "class_arduino_library_skeleton.html":[0,0,0],
 "class_arduino_library_skeleton.html#a07a3b5db9ce2eb888d77c6c35ecd78cf":[0,0,0,2],
 "class_arduino_library_skeleton.html#a723f0a50436e35cc414bdd7a459f6019":[0,0,0,0],
