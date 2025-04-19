@@ -13,8 +13,9 @@ The skeleton serves as a template for an arduino library.
 * Basic arduino library file structure
 * Basic arduino class methods ('begin' and 'end' as well as an example getter and setter) 
 * platformIO [development respository](https://github.com/steftri/ArduinoLibrarySkeleton_dev) with 
-  * 'unity' unit tests
-  * support of native platform, Arduino Uno, Arduino Mega2560, ESP8266 and ESP32 
+  * unit and integration tests based on 'Unity' and 'GoogleTest'
+  * Doxygen support
+  * support of native platform, ATmega (Arduino UNO, Arduino Mega5120), ESP8266/ESP32 and STM32 (BluePill, BlackPill)
 
 
 ## Development Environment
@@ -29,6 +30,8 @@ For library development using Visual Studio Code, the following tools and framew
 * Python 3.10 by the Python Software Foundation
 * Java 8 Update 371 by Oracle
 * PlantUML 2.17.5 by Arnaud Roques
+* Doxygen 1.13.2 by Dimitri van Heesch
+* SonarCube for IDE 4.19.0 by SonarSource
 
 
 ## Known Anomalies
@@ -38,9 +41,17 @@ For library development using Visual Studio Code, the following tools and framew
 
 ## Changelog
 
+### 1.1.0
+
+* Filenames changed to CamelCase
+* CMakeLists.txt added
+* Doxygen comments added
+* Arduino example added
+
 ### 1.0.0
 
 * Initial release
+
 
 
 ## Website

@@ -1,0 +1,22 @@
+var NAVTREEINDEX0 =
+{
+"_arduino_library_skeleton_8h_source.html":[1,0,0,0],
+"annotated.html":[0,0],
+"class_arduino_library_skeleton.html":[0,0,0],
+"class_arduino_library_skeleton.html#a07a3b5db9ce2eb888d77c6c35ecd78cf":[0,0,0,2],
+"class_arduino_library_skeleton.html#a723f0a50436e35cc414bdd7a459f6019":[0,0,0,0],
+"class_arduino_library_skeleton.html#a723f0a50436e35cc414bdd7a459f6019a0807e130dad18fdc38e8764a8d756c2a":[0,0,0,0,1],
+"class_arduino_library_skeleton.html#a723f0a50436e35cc414bdd7a459f6019a394f83bb2ed3fc9be5235ef0bad0d473":[0,0,0,0,0],
+"class_arduino_library_skeleton.html#ab0a9891278b302baf88fbf02db087188":[0,0,0,5],
+"class_arduino_library_skeleton.html#ac57ec9ca5455365392ef5dbcc44ee74a":[0,0,0,1],
+"class_arduino_library_skeleton.html#af013146f8c0b686d6a6eea053b92636a":[0,0,0,4],
+"class_arduino_library_skeleton.html#afce5ef7c526f974c55f76f088e1a0d02":[0,0,0,3],
+"classes.html":[0,1],
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html":[1,0,0],
+"files.html":[1,0],
+"functions.html":[0,2,0],
+"functions_enum.html":[0,2,2],
+"functions_func.html":[0,2,1],
+"index.html":[],
+"pages.html":[]
+};

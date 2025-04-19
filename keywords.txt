@@ -12,7 +12,7 @@ getValue	KEYWORD2
 setValue	KEYWORD2
 
 # Instances (KEYWORD2)
-myArduinoLibrarySkeleton	KEYWORD2
+myArduinoLibrary	KEYWORD2
 
 # Constants (LITERAL1)
 RcOK	LITERAL1
